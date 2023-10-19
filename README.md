@@ -44,7 +44,7 @@ yarn create react-app my-app --template typescript
 
 <h3 align="center"> 🟢 When comparing project generation winner is Angular 🟢</h3>
 
-## 3.Project File Structure
+## 3.<span id="project-structure">Project File Structure</span>
 
 In the Angular project, component generation is a breeze with Angular CLI. It automatically generates an organized file structure for each component, including HTML, CSS, TypeScript, and a separate spec.ts file within a dedicated folder named after the component. This structured approach makes it easy to maintain and manage components
 
@@ -70,9 +70,9 @@ as component name it take name of the file. as example if file name is `Test.ts`
 
 <h3 align="center">🟢 When comparing project file structure winner is Angular 🟢</h3>
 
-## 4.Technical Comparisons
+## 4.<span id="technical-comparisons">Technical Comparisons</span>
 
-#### 1. Iterating and Rendering
+#### 1. <span id="iterating-and-rendering">Iterating and Rendering</span>
 
 ### This is how to make table in Angular
 
@@ -133,7 +133,7 @@ On the other hand, in React, handling dynamic content involves using JavaScript'
 
 <h3 align="center">🟢 When comparing Iteration and Rendering winner is Angular 🟢</h3>
 
-#### 2. Sending HTTP Requests
+#### 2. <span id="sending-HTTP-requests">Sending HTTP Requests</span>
 
 ### This is how to make HTTP request in Angular
 
@@ -248,7 +248,7 @@ export default StudentDataContainer;
 
 <h3 align="center">🟢 When comparing making HTTP requests. I prefer Angular. So winner is Angular 🟢</h3>
 
-#### 3.Code Organization and Cleanliness
+#### 3.<span id="code-organization-and-cleanliness">Code Organization and Cleanliness </span>
 
 ### This is how Angular component looks
 
