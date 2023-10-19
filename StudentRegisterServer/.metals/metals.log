@@ -1,0 +1,925 @@
+2023.10.13 08:47:36 INFO  Started: Metals version 1.0.1 in folders 'E:\Coding\Projects\StudentRegister\StudentRegisterServer' for client Visual Studio Code 1.75.1.
+Oct 13, 2023 8:47:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 13, 2023 8:47:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 13, 2023 8:47:37 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\metals (H2 2.1)
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Oct 13, 2023 8:47:38 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.038s)
+2023.10.13 08:47:38 INFO  time: initialize in 2.1s
+2023.10.13 08:47:42 WARN  Build server is not auto-connectable.
+2023.10.13 08:47:42 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+2023.10.13 08:48:05 INFO  no build target found for E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java. Using presentation compiler with project's scala-library version: 3.3.0
+Oct 13, 2023 8:48:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-48-17-511
+Oct 13, 2023 8:48:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-48-19-900
+Oct 13, 2023 8:50:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-37-269
+Oct 13, 2023 8:50:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-38-564
+Oct 13, 2023 8:50:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-39-047
+Oct 13, 2023 8:50:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-39-354
+Oct 13, 2023 8:50:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-39-810
+Oct 13, 2023 8:50:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-40-117
+Oct 13, 2023 8:50:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-40-382
+Oct 13, 2023 8:50:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-40-825
+Oct 13, 2023 8:50:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-41-867
+Oct 13, 2023 8:50:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-42-209
+Oct 13, 2023 8:50:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-44-903
+Oct 13, 2023 8:50:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-50-332
+Oct 13, 2023 8:50:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-51-306
+Oct 13, 2023 8:50:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-53-423
+Oct 13, 2023 8:50:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-54-313
+Oct 13, 2023 8:50:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-54-738
+Oct 13, 2023 8:50:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-55-238
+Oct 13, 2023 8:50:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-55-544
+Oct 13, 2023 8:50:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-56-988
+Oct 13, 2023 8:50:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-57-266
+Oct 13, 2023 8:50:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-58-520
+Oct 13, 2023 8:50:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-50-59-252
+Oct 13, 2023 8:51:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-00-078
+Oct 13, 2023 8:51:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-00-291
+Oct 13, 2023 8:51:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-00-737
+Oct 13, 2023 8:51:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+Oct 13, 2023 8:51:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-01-283
+Oct 13, 2023 8:51:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-01-596
+Oct 13, 2023 8:51:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-02-418
+Oct 13, 2023 8:51:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-02-888
+Oct 13, 2023 8:51:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-03-330
+Oct 13, 2023 8:51:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-03-570
+Oct 13, 2023 8:51:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-05-096
+Oct 13, 2023 8:51:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-25-487
+Oct 13, 2023 8:51:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-25-832
+Oct 13, 2023 8:51:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-27-990
+Oct 13, 2023 8:51:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-28-685
+Oct 13, 2023 8:51:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-29-172
+Oct 13, 2023 8:51:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+Oct 13, 2023 8:51:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-30-422
+2023.10.13 08:51:31 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 8:51:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-31-677
+Oct 13, 2023 8:51:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+Oct 13, 2023 8:51:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-32-263
+Oct 13, 2023 8:51:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-33-280
+Oct 13, 2023 8:51:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-33-572
+Oct 13, 2023 8:51:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-34-796
+Oct 13, 2023 8:51:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+Oct 13, 2023 8:51:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-35-885
+Oct 13, 2023 8:51:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-36-669
+Oct 13, 2023 8:51:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-37-816
+Oct 13, 2023 8:51:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-39-218
+Oct 13, 2023 8:51:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-40-561
+Oct 13, 2023 8:51:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-42-074
+Oct 13, 2023 8:51:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-42-407
+Oct 13, 2023 8:51:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-42-868
+Oct 13, 2023 8:51:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-50-422
+Oct 13, 2023 8:51:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-50-564
+Oct 13, 2023 8:51:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-50-874
+Oct 13, 2023 8:51:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-55-370
+Oct 13, 2023 8:51:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-51-58-057
+Oct 13, 2023 8:52:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-00-580
+Oct 13, 2023 8:52:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-04-725
+Oct 13, 2023 8:52:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-06-314
+Oct 13, 2023 8:52:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-06-580
+Oct 13, 2023 8:52:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-07-397
+Oct 13, 2023 8:52:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-08-038
+Oct 13, 2023 8:52:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-08-362
+Oct 13, 2023 8:52:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-12-586
+Oct 13, 2023 8:52:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-38-222
+Oct 13, 2023 8:52:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-40-038
+Oct 13, 2023 8:52:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-40-254
+Oct 13, 2023 8:52:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-44-953
+Oct 13, 2023 8:52:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-52-45-459
+Oct 13, 2023 8:53:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-23-217
+Oct 13, 2023 8:53:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-24-072
+Oct 13, 2023 8:53:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-24-348
+Oct 13, 2023 8:53:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-24-528
+Oct 13, 2023 8:53:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-25-905
+Oct 13, 2023 8:53:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-37-115
+Oct 13, 2023 8:53:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-37-832
+Oct 13, 2023 8:53:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-38-247
+Oct 13, 2023 8:53:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-39-502
+Oct 13, 2023 8:53:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-42-405
+Oct 13, 2023 8:53:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-46-492
+Oct 13, 2023 8:53:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-46-987
+Oct 13, 2023 8:53:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-47-792
+Oct 13, 2023 8:53:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-51-826
+Oct 13, 2023 8:53:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-52-418
+Oct 13, 2023 8:53:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-53-712
+Oct 13, 2023 8:53:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-54-138
+Oct 13, 2023 8:53:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 281
+Oct 13, 2023 8:53:55 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-55-208
+Oct 13, 2023 8:53:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-56-609
+Oct 13, 2023 8:53:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-57-149
+Oct 13, 2023 8:53:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-57-789
+Oct 13, 2023 8:53:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-57-968
+Oct 13, 2023 8:53:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-59-702
+Oct 13, 2023 8:53:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-53-59-987
+Oct 13, 2023 8:54:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-00-701
+Oct 13, 2023 8:54:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-01-386
+Oct 13, 2023 8:54:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-03-407
+Oct 13, 2023 8:54:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-03-702
+Oct 13, 2023 8:54:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-04-684
+Oct 13, 2023 8:54:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-06-607
+Oct 13, 2023 8:54:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-07-086
+Oct 13, 2023 8:54:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-14-575
+Oct 13, 2023 8:54:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-15-551
+2023.10.13 08:54:16 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 8:54:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-16-769
+Oct 13, 2023 8:54:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-17-894
+Oct 13, 2023 8:54:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-20-564
+2023.10.13 08:54:21 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+2023.10.13 08:54:21 WARN  Running javac-semanticdb failed for file:///E:/Coding/Projects/StudentRegister/StudentRegisterServer/src/main/java/com/heshanthenura/studentregisterserver/MainController.java. Output:
+
+Oct 13, 2023 8:54:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-21-319
+Oct 13, 2023 8:54:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-21-843
+Oct 13, 2023 8:54:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-22-578
+Oct 13, 2023 8:54:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-23-019
+Oct 13, 2023 8:54:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-23-356
+Oct 13, 2023 8:54:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-23-790
+Oct 13, 2023 8:54:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-24-076
+Oct 13, 2023 8:54:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-30-683
+Oct 13, 2023 8:54:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 385
+2023.10.13 08:54:33 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Services\DBServices.java
+Oct 13, 2023 8:54:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-33-656
+Oct 13, 2023 8:54:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-34-024
+Oct 13, 2023 8:54:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-34-198
+Oct 13, 2023 8:54:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 389
+Oct 13, 2023 8:54:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-35-222
+Oct 13, 2023 8:54:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-37-242
+Oct 13, 2023 8:54:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-37-635
+Oct 13, 2023 8:54:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-38-810
+Oct 13, 2023 8:54:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-39-532
+Oct 13, 2023 8:54:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-39-881
+Oct 13, 2023 8:54:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-40-215
+Oct 13, 2023 8:54:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-42-878
+Oct 13, 2023 8:54:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-44-372
+Oct 13, 2023 8:54:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-44-778
+Oct 13, 2023 8:54:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-45-562
+Oct 13, 2023 8:54:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-52-138
+2023.10.13 08:54:52 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 8:54:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-53-186
+Oct 13, 2023 8:54:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-54-53-424
+Oct 13, 2023 8:55:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-08-579
+Oct 13, 2023 8:55:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-09-249
+Oct 13, 2023 8:55:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-10-299
+Oct 13, 2023 8:55:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-11-054
+Oct 13, 2023 8:55:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-11-463
+Oct 13, 2023 8:55:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-11-708
+Oct 13, 2023 8:55:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-11-932
+Oct 13, 2023 8:55:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-13-055
+Oct 13, 2023 8:55:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-15-991
+Oct 13, 2023 8:55:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-17-914
+Oct 13, 2023 8:55:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-31-689
+Oct 13, 2023 8:55:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-31-948
+Oct 13, 2023 8:55:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-32-618
+Oct 13, 2023 8:55:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-33-308
+Oct 13, 2023 8:55:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-35-360
+Oct 13, 2023 8:55:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-37-139
+Oct 13, 2023 8:55:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-38-719
+2023.10.13 08:55:39 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 8:55:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-55-39-421
+Oct 13, 2023 8:57:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-57-56-038
+Oct 13, 2023 8:57:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-57-56-626
+Oct 13, 2023 8:58:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-58-09-616
+Oct 13, 2023 8:58:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-58-11-058
+Oct 13, 2023 8:58:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 13, 2023 8:58:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_08-58-57-563
+Oct 13, 2023 9:04:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-38-581
+Oct 13, 2023 9:04:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-39-028
+Oct 13, 2023 9:04:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-40-418
+Oct 13, 2023 9:04:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-41-345
+2023.10.13 09:04:52 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:04:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-52-317
+Oct 13, 2023 9:04:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-52-500
+2023.10.13 09:04:53 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:04:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-04-53-503
+Oct 13, 2023 9:08:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-20-399
+Oct 13, 2023 9:08:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-20-589
+Oct 13, 2023 9:08:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-21-036
+Oct 13, 2023 9:08:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-21-873
+Oct 13, 2023 9:08:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-25-578
+Oct 13, 2023 9:08:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-26-518
+Oct 13, 2023 9:08:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-31-799
+Oct 13, 2023 9:08:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-32-842
+Oct 13, 2023 9:08:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-33-035
+Oct 13, 2023 9:08:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-34-396
+Oct 13, 2023 9:08:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-35-008
+Oct 13, 2023 9:08:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-42-058
+Oct 13, 2023 9:08:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-42-262
+Oct 13, 2023 9:08:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-42-801
+Oct 13, 2023 9:08:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-45-078
+Oct 13, 2023 9:08:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-46-970
+Oct 13, 2023 9:08:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-08-49-789
+2023.10.13 09:09:00 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:09:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 586
+Oct 13, 2023 9:09:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-09-00-921
+2023.10.13 09:09:02 INFO  time: code lens generation in 4.36s
+Oct 13, 2023 9:11:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-28-100
+Oct 13, 2023 9:11:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 597
+Oct 13, 2023 9:11:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-28-758
+Oct 13, 2023 9:11:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-30-284
+Oct 13, 2023 9:11:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-31-075
+2023.10.13 09:11:31 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:11:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-31-606
+Oct 13, 2023 9:11:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-38-505
+Oct 13, 2023 9:11:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-38-953
+Oct 13, 2023 9:11:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-39-910
+Oct 13, 2023 9:11:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-41-784
+Oct 13, 2023 9:11:42 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-42-837
+Oct 13, 2023 9:11:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 621
+Oct 13, 2023 9:11:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 623
+Oct 13, 2023 9:11:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-43-362
+Oct 13, 2023 9:11:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 632
+Oct 13, 2023 9:11:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-44-463
+Oct 13, 2023 9:11:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-44-949
+Oct 13, 2023 9:11:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-45-203
+Oct 13, 2023 9:11:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-46-468
+2023.10.13 09:11:48 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:11:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-48-732
+Oct 13, 2023 9:11:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-11-59-030
+2023.10.13 09:12:06 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:12:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+Oct 13, 2023 9:12:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-12-09-149
+Oct 13, 2023 9:12:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-12-09-293
+Oct 13, 2023 9:12:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-12-11-264
+Oct 13, 2023 9:13:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-13-33-178
+Oct 13, 2023 9:13:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-13-34-163
+Oct 13, 2023 9:13:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-13-35-984
+Oct 13, 2023 9:13:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-13-36-316
+2023.10.13 09:13:39 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:13:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-13-40-084
+Oct 13, 2023 9:13:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-13-40-310
+Oct 13, 2023 9:14:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 691
+Oct 13, 2023 9:15:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-11-442
+Oct 13, 2023 9:15:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-13-797
+Oct 13, 2023 9:15:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 714
+Oct 13, 2023 9:15:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-17-782
+2023.10.13 09:15:17 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:15:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-18-320
+Oct 13, 2023 9:15:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-18-665
+Oct 13, 2023 9:15:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-19-379
+Oct 13, 2023 9:15:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 729
+Oct 13, 2023 9:15:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-22-668
+2023.10.13 09:15:23 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:15:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-24-159
+Oct 13, 2023 9:15:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-24-462
+Oct 13, 2023 9:15:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-24-765
+Oct 13, 2023 9:15:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-25-523
+Oct 13, 2023 9:15:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-26-219
+Oct 13, 2023 9:15:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-28-249
+Oct 13, 2023 9:15:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-28-747
+Oct 13, 2023 9:15:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-30-229
+Oct 13, 2023 9:15:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-30-580
+Oct 13, 2023 9:15:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-31-075
+Oct 13, 2023 9:15:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-31-661
+Oct 13, 2023 9:15:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-32-550
+Oct 13, 2023 9:15:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-33-381
+Oct 13, 2023 9:15:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-33-702
+Oct 13, 2023 9:15:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-34-549
+Oct 13, 2023 9:15:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-34-906
+Oct 13, 2023 9:15:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-35-678
+Oct 13, 2023 9:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-36-937
+Oct 13, 2023 9:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-37-521
+Oct 13, 2023 9:15:37 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-37-863
+2023.10.13 09:15:38 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:15:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-38-682
+Oct 13, 2023 9:15:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-39-022
+Oct 13, 2023 9:15:39 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-39-392
+Oct 13, 2023 9:15:40 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-40-861
+Oct 13, 2023 9:15:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-42-875
+Oct 13, 2023 9:15:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-43-265
+Oct 13, 2023 9:15:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-43-619
+Oct 13, 2023 9:15:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-49-310
+Oct 13, 2023 9:15:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-58-681
+Oct 13, 2023 9:15:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-15-59-863
+Oct 13, 2023 9:16:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-00-286
+Oct 13, 2023 9:16:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-06-765
+Oct 13, 2023 9:16:08 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-08-100
+Oct 13, 2023 9:16:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-09-456
+Oct 13, 2023 9:16:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-10-778
+Oct 13, 2023 9:16:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-12-733
+Oct 13, 2023 9:16:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-16-661
+Oct 13, 2023 9:16:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-18-676
+Oct 13, 2023 9:16:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-18-935
+Oct 13, 2023 9:16:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-19-967
+Oct 13, 2023 9:16:20 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-20-408
+Oct 13, 2023 9:16:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-21-128
+Oct 13, 2023 9:16:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-21-349
+Oct 13, 2023 9:16:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-22-844
+Oct 13, 2023 9:16:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-24-554
+Oct 13, 2023 9:16:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-26-086
+Oct 13, 2023 9:16:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-27-039
+Oct 13, 2023 9:16:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-28-046
+Oct 13, 2023 9:16:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-33-240
+Oct 13, 2023 9:16:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 859
+Oct 13, 2023 9:16:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-33-581
+Oct 13, 2023 9:16:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-49-269
+Oct 13, 2023 9:16:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-50-130
+2023.10.13 09:16:50 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:16:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-50-663
+Oct 13, 2023 9:16:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-50-759
+Oct 13, 2023 9:16:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-50-859
+Oct 13, 2023 9:16:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-51-661
+Oct 13, 2023 9:16:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-52-001
+Oct 13, 2023 9:16:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-52-803
+Oct 13, 2023 9:16:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-16-53-490
+Oct 13, 2023 9:17:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-03-025
+Oct 13, 2023 9:17:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-03-863
+Oct 13, 2023 9:17:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-06-514
+Oct 13, 2023 9:17:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-06-946
+Oct 13, 2023 9:17:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-07-296
+Oct 13, 2023 9:17:09 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-09-804
+Oct 13, 2023 9:17:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-10-902
+2023.10.13 09:17:44 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\Database\Entities\StudentBasicDetailsEntity.java
+Oct 13, 2023 9:17:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-45-187
+Oct 13, 2023 9:17:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-45-463
+Oct 13, 2023 9:17:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-46-983
+Oct 13, 2023 9:17:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-56-357
+Oct 13, 2023 9:17:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-56-938
+Oct 13, 2023 9:17:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-17-57-068
+2023.10.13 09:18:44 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:18:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-44-668
+Oct 13, 2023 9:18:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-45-248
+Oct 13, 2023 9:18:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-46-207
+Oct 13, 2023 9:18:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-46-734
+2023.10.13 09:18:47 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:18:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-48-069
+Oct 13, 2023 9:18:48 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-48-430
+Oct 13, 2023 9:18:49 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-48-784
+Oct 13, 2023 9:18:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-50-036
+Oct 13, 2023 9:18:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-56-342
+Oct 13, 2023 9:18:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-57-970
+Oct 13, 2023 9:18:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-58-290
+Oct 13, 2023 9:18:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-18-58-475
+Oct 13, 2023 9:22:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-22-56-512
+Oct 13, 2023 9:22:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-22-58-489
+Oct 13, 2023 9:23:00 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-00-228
+Oct 13, 2023 9:23:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-01-281
+Oct 13, 2023 9:23:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-02-295
+Oct 13, 2023 9:23:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-04-190
+Oct 13, 2023 9:23:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-04-419
+2023.10.13 09:23:05 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 13, 2023 9:23:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-05-272
+Oct 13, 2023 9:23:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-05-533
+Oct 13, 2023 9:23:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-12-522
+Oct 13, 2023 9:23:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-12-752
+Oct 13, 2023 9:23:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-14-056
+Oct 13, 2023 9:23:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-17-344
+Oct 13, 2023 9:23:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-23-101
+Oct 13, 2023 9:23:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-24-879
+Oct 13, 2023 9:23:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-25-457
+Oct 13, 2023 9:23:27 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-27-093
+Oct 13, 2023 9:23:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-29-429
+Oct 13, 2023 9:23:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-30-176
+Oct 13, 2023 9:23:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-32-922
+Oct 13, 2023 9:23:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-35-720
+Oct 13, 2023 9:23:35 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-23-35-905
+Oct 13, 2023 9:23:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1035
+Oct 13, 2023 9:24:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-24-11-219
+Oct 13, 2023 9:24:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-24-12-226
+Oct 13, 2023 9:24:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-24-29-728
+Oct 13, 2023 9:24:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-24-34-641
+Oct 13, 2023 9:24:43 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_09-24-43-766
+2023.10.13 09:24:51 INFO  Shutting down server
+2023.10.13 09:24:51 INFO  shutting down Metals
+2023.10.13 09:24:56 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.13 21:31:25 INFO  Started: Metals version 1.0.1 in folders 'E:\Coding\Projects\StudentRegister\StudentRegisterServer' for client Visual Studio Code 1.75.1.
+Oct 13, 2023 9:31:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 13, 2023 9:31:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 13, 2023 9:31:26 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 13, 2023 9:31:29 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\metals (H2 2.1)
+Oct 13, 2023 9:31:29 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.095s)
+Oct 13, 2023 9:31:29 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 13, 2023 9:31:30 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.13 21:31:31 INFO  time: initialize in 4.97s
+2023.10.13 21:31:41 WARN  Build server is not auto-connectable.
+2023.10.13 21:31:41 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+2023.10.13 21:31:46 INFO  time: code lens generation in 5.33s
+2023.10.13 21:32:05 INFO  no build target found for E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java. Using presentation compiler with project's scala-library version: 3.3.0
+Oct 13, 2023 9:32:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_21-32-18-102
+Oct 13, 2023 9:32:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_21-32-20-616
+Oct 13, 2023 10:12:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_22-12-49-722
+Oct 13, 2023 10:12:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_22-12-54-377
+Oct 13, 2023 10:19:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_22-19-46-260
+2023.10.13 22:20:07 INFO  Shutting down server
+2023.10.13 22:20:07 INFO  shutting down Metals
+2023.10.13 22:20:10 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.13 22:20:10 INFO  Exiting server
+2023.10.13 22:24:45 INFO  Started: Metals version 1.0.1 in folders 'E:\Coding\Projects\StudentRegister\StudentRegisterServer' for client Visual Studio Code 1.75.1.
+Oct 13, 2023 10:24:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 13, 2023 10:24:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 13, 2023 10:24:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 13, 2023 10:24:47 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\metals (H2 2.1)
+Oct 13, 2023 10:24:48 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.186s)
+Oct 13, 2023 10:24:48 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 13, 2023 10:24:48 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.13 22:24:48 INFO  time: initialize in 2.28s
+Oct 13, 2023 10:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.10.13 22:24:54 WARN  Build server is not auto-connectable.
+2023.10.13 22:24:54 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+2023.10.13 22:25:01 INFO  no build target found for E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java. Using presentation compiler with project's scala-library version: 3.3.0
+Oct 13, 2023 10:25:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Oct 13, 2023 10:25:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_22-25-07-476
+Oct 13, 2023 10:25:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_22-25-09-903
+Oct 13, 2023 10:27:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-13\r_compiler-error_22-27-14-099
+2023.10.13 22:27:14 INFO  Shutting down server
+2023.10.13 22:27:14 INFO  shutting down Metals
+2023.10.13 22:27:16 INFO  Exiting server
+2023.10.13 22:27:16 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.14 10:07:22 INFO  Started: Metals version 1.0.1 in folders 'E:\Coding\Projects\StudentRegister\StudentRegisterServer' for client Visual Studio Code 1.75.1.
+Oct 14, 2023 10:07:24 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Oct 14, 2023 10:07:24 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Oct 14, 2023 10:07:24 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Oct 14, 2023 10:07:27 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\metals (H2 2.1)
+Oct 14, 2023 10:07:27 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.139s)
+Oct 14, 2023 10:07:27 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Oct 14, 2023 10:07:28 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.10.14 10:07:29 INFO  time: initialize in 6.18s
+2023.10.14 10:08:04 INFO  no build target found for E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java. Using presentation compiler with project's scala-library version: 3.3.0
+Oct 14, 2023 10:08:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.10.14 10:08:12 WARN  Build server is not auto-connectable.
+Oct 14, 2023 10:08:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Oct 14, 2023 10:08:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Oct 14, 2023 10:08:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2023.10.14 10:08:12 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 14, 2023 10:08:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+Oct 14, 2023 10:08:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 14, 2023 10:08:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Oct 14, 2023 10:08:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Oct 14, 2023 10:08:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+2023.10.14 10:08:22 INFO  time: code lens generation in 8.56s
+2023.10.14 10:08:22 INFO  time: code lens generation in 10s
+2023.10.14 10:08:22 INFO  time: code lens generation in 9.96s
+2023.10.14 10:08:22 INFO  time: code lens generation in 8.58s
+2023.10.14 10:08:22 INFO  time: code lens generation in 8.85s
+Oct 14, 2023 10:08:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-28-740
+Oct 14, 2023 10:08:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-29-292
+Oct 14, 2023 10:08:29 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-29-779
+Oct 14, 2023 10:08:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-31-772
+Oct 14, 2023 10:08:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-33-960
+Oct 14, 2023 10:08:34 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-34-932
+Oct 14, 2023 10:08:36 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-36-085
+Oct 14, 2023 10:08:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-41-242
+Oct 14, 2023 10:08:41 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-41-687
+Oct 14, 2023 10:08:47 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-47-276
+Oct 14, 2023 10:08:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-50-291
+Oct 14, 2023 10:08:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-08-52-094
+Oct 14, 2023 10:09:01 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-09-01-117
+2023.10.14 10:09:02 WARN  no build target for: E:\Coding\Projects\StudentRegister\StudentRegisterServer\src\main\java\com\heshanthenura\studentregisterserver\MainController.java
+Oct 14, 2023 10:09:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-09-02-580
+Oct 14, 2023 10:09:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-09-03-367
+Oct 14, 2023 10:09:19 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\Coding\Projects\StudentRegister\StudentRegisterServer\.metals\.reports\metals-full\2023-10-14\r_compiler-error_10-09-18-851
+2023.10.14 10:09:20 INFO  Shutting down server
+2023.10.14 10:09:20 INFO  shutting down Metals
+2023.10.14 10:09:20 INFO  Exiting server

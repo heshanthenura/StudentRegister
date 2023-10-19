@@ -1,0 +1,67 @@
+java.util.NoSuchElementException: next on empty iterator
+occurred in the presentation compiler.
+
+action parameters:
+offset: 817
+uri: file:///E:/Coding/Projects/StudentRegister/StudentRegisterServer/src/main/java/com/heshanthenura/studentregisterserver/MainController.java
+text:
+package com.heshanthenura.studentregisterserver;
+
+import com.heshanthenura.studentregisterserver.Database.Entities.StudentBasicDetailsEntity;
+import com.heshanthenura.studentregisterserver.Database.Services.DBServices;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+import org.spring@@framework.web.bind.annotation.RequestParam;
+import jakarta.validation.Valid;
+
+@RestController
+public class MainController {
+
+    @Autowired
+    DBServices dbServices;
+
+    Logger logger = Logger.getLogger("info-logger");
+
+    @RequestMapping(value = "/",method = RequestMethod.GET)
+    public List<StudentBasicDetailsEntity> getAllStudentsBasicDetails(){
+        return dbServices.getAllStudents();
+    }
+
+    @RequestMapping(value = "/addBasicDetails",method = RequestMethod.POST)
+    public void addStudentsBasicDetails(@RequestBody StudentBasicDetailsEntity studentBasicDetailsEntity ){
+        logger.info(String.valueOf(studentBasicDetailsEntity.getIndex()));
+        logger.info(studentBasicDetailsEntity.getName());
+        dbServices.saveStudentBasicDetailsEntity(studentBasicDetailsEntity);
+    }
+
+    @RequestMapping(value = "/updateBasicDetails/{id}",method = RequestMethod.PUT)
+    public ResponseEntity<String> updateStudentsBasicDetails(@PathVariable long id,@Valid @RequestBody StudentBasicDetailsEntity studentBasicDetailsEntity) {
+        return ResponseEntity.ok("Student data updated successfully.");
+    }   
+    
+
+}
+
+
+
+error stacktrace:
+scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	scala.collection.mutable.MutationTracker$CheckedIterator.next(MutationTracker.scala:76)
+	scala.collection.IterableOps.head(Iterable.scala:222)
+	scala.collection.IterableOps.head$(Iterable.scala:222)
+	scala.collection.AbstractIterable.head(Iterable.scala:933)
+	dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:168)
+	scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:45)
+	scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:34)
+	scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:325)
