@@ -2,19 +2,19 @@
 
 ## Menu
 
-### 1.Overview
+### [1.Overview](#overview)
 
-### 2.Project Generation
+### [2.Project Generation](#project-generation)
 
-### 3.Project Structure
+### [3.Project Structure](#project-structure)
 
-### 4.Technical Comparisons
+### [4.Technical Comparisons](#technical-comparisons)
 
-- ### Iterating and Rendering
-- ### Sending HTTP Requests
-- ### Code Organization and Cleanliness
+- ### [Iterating and Rendering](#iterating-and-rendering)
+- ### [Sending HTTP Requests](#sending-HTTP-requests)
+- ### [Code Organization and Cleanliness](#code-organization-and-cleanliness)
 
-## 1. Overview
+## 1. <span id="overview">Overview</span>
 
 <img src="ss.png">
 
@@ -22,7 +22,7 @@ In this article, I'll share my experience of building the same web app using two
 
 Furthermore, it's worth noting that the learning curve for React and Angular can also vary significantly from person to person. However, I found both frameworks relatively approachable and did not encounter significant obstacles during the learning process. While the learning experience can be unique to each individual, I chose not to delve into this aspect in detail as both React and Angular offer ample resources and community support to facilitate the learning journey.
 
-## 2.Project Generation
+## 2.<span id="project-generation">Project Generation</span>
 
 I generated the Angular web app using Angular CLI version 16.2.5 and for the React project, I opted for Yarn due to issues encountered during the initial project creation with npm. Both projects are built using TypeScript, offering a robust and statically typed foundation for web development
 
