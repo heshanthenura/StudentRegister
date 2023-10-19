@@ -14,7 +14,7 @@
 
 ### I crafted the Angular web app using Angular CLI version 16.2.5, and for the React project, I opted for Yarn due to issues encountered during the initial project creation with npm. Both projects are built using TypeScript, offering a robust and statically typed foundation for web development
 
-###### comman that I used to generate angular project
+##### comman that I used to generate angular project
 
 ```
 ng new <Project Name>
