@@ -1,3 +1,3 @@
-./student-register-client-react/node_modules
-./StudentRegisterClientAngular/node_modules
-./StudentRegisterServer/target
+student-register-client-react/node_modules/
+StudentRegisterClientAngular/node_modules/
+StudentRegisterServer/target/

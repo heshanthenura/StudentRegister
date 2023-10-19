@@ -1,0 +1,67 @@
+java.util.NoSuchElementException: next on empty iterator
+occurred in the presentation compiler.
+
+action parameters:
+offset: 1313
+uri: file:///E:/Coding/Projects/StudentRegister/StudentRegisterServer/src/main/java/com/heshanthenura/studentregisterserver/Database/Services/DBServices.java
+text:
+package com.heshanthenura.studentregisterserver.Database.Services;
+
+import com.heshanthenura.studentregisterserver.Database.Entities.StudentBasicDetailsEntity;
+import com.heshanthenura.studentregisterserver.Database.Repositories.StudentBasicDetailsRepository;
+import jakarta.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.Optional;
+
+@Service
+public class DBServices {
+    private final StudentBasicDetailsRepository studentBasicDetailsRepository;
+
+    @Autowired
+    public DBServices(StudentBasicDetailsRepository studentBasicDetailsRepository) {
+        this.studentBasicDetailsRepository = studentBasicDetailsRepository;
+    }
+
+    public List<StudentBasicDetailsEntity> getAllStudents() {
+        return studentBasicDetailsRepository.findAll();
+    }
+
+    public ResponseEntity<String> saveStudentBasicDetailsEntity(StudentBasicDetailsEntity studentBasicDetailsEntity){
+        studentBasicDetailsRepository.save(studentBasicDetailsEntity);
+        return ResponseEntity.ok("Student Saved Successfully");
+    }
+
+    @Transactional
+    public StudentE upd@@ateStudentBasicDetailsEntity(StudentBasicDetailsEntity updatedStudent) {
+        Long id = updatedStudent.getIndex();
+        Optional<StudentBasicDetailsEntity> existingStudentOptional = studentBasicDetailsRepository.findById(id);
+        if (existingStudentOptional.isPresent()) {
+            StudentBasicDetailsEntity existingStudent = existingStudentOptional.get();
+            existingStudent.setName(updatedStudent.getName());
+            studentBasicDetailsRepository.save(existingStudent);
+            return ResponseEntity.ok("Student Updated Successfully");
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Error when updating student");
+        }
+    }
+
+}
+
+
+
+error stacktrace:
+scala.collection.Iterator$$anon$19.next(Iterator.scala:973)
+	scala.collection.Iterator$$anon$19.next(Iterator.scala:971)
+	scala.collection.mutable.MutationTracker$CheckedIterator.next(MutationTracker.scala:76)
+	scala.collection.IterableOps.head(Iterable.scala:222)
+	scala.collection.IterableOps.head$(Iterable.scala:222)
+	scala.collection.AbstractIterable.head(Iterable.scala:933)
+	dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:168)
+	scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:45)
+	scala.meta.internal.pc.HoverProvider$.hover(HoverProvider.scala:34)
+	scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:325)

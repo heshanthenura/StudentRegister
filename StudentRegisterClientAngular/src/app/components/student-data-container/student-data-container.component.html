@@ -1,0 +1,35 @@
+<form (submit)="addStudentData()">
+  <h1 class="form-heading">Add Student Details</h1>
+  <div class="input-wrap">
+    <input
+      type="text"
+      name="index"
+      id="index"
+      placeholder="Enter Index Number"
+      [(ngModel)]="index"
+    />
+    <input
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Enter Student Name"
+      [(ngModel)]="name"
+    />
+  </div>
+  <input type="submit" value="ADD DATA" />
+</form>
+<p class="error-msg">{{ errorMsg }}</p>
+<table>
+  <thead>
+    <tr>
+      <th>INDEX</th>
+      <th>NAME</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of studentDataList">
+      <td>{{ data.index }}</td>
+      <td>{{ data.name }}</td>
+    </tr>
+  </tbody>
+</table>
