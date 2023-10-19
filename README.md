@@ -10,7 +10,8 @@
 
 ### 4.Technical Comparisons
 
-- #### Iterating and Rendering
+- ### Iterating and Rendering
+- ### Sending HTTP Requests
 
 ## 1. Overview
 
@@ -38,7 +39,7 @@ yarn create react-app my-app --template typescript
 
 ### this took about 10 mins to generate React project. Maybe because of my internet
 
-<h3 align="center">When comparing project generation winner is Angular</h3>
+<h3 align="center"> 🟢 When comparing project generation winner is Angular 🟢</h3>
 
 ## 3.Project File Structure
 
@@ -46,7 +47,7 @@ yarn create react-app my-app --template typescript
 
 ### On the React side of things, I adopted a slightly different approach. While component creation in React doesn't have the same level of automation as Angular, I utilized the ['ES7+ React/Redux/React-Native snippets']("https://www.google.com/search?q=ES7%2B+React%2FRedux%2FReact-Native+snippets&oq=ES7%2B+React%2FRedux%2FReact-Native+snippets&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzMxOGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8") extension available in Visual Studio Code. With this extension, I could streamline component generation using the `rafce` command, which efficiently generates the component's code and exports it with the component name. Although not as automated as Angular, this approach still ensures a well-organized project structure.
 
-- #### This is the code that ['ES7+ React/Redux/React-Native snippets']("https://www.google.com/search?q=ES7%2B+React%2FRedux%2FReact-Native+snippets&oq=ES7%2B+React%2FRedux%2FReact-Native+snippets&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzMxOGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8") using `rafce` command
+- #### This is the code that ['ES7+ React/Redux/React-Native snippets']("https://www.google.com/search?q=ES7%2B+React%2FRedux%2FReact-Native+snippets&oq=ES7%2B+React%2FRedux%2FReact-Native+snippets&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzMxOGowajGoAgCwAgA&sourceid=chrome&ie=UTF-8") extension generates using `rafce` command
 
 ```typescript
 import React from 'react'
@@ -64,7 +65,7 @@ export default <Compoenent Name>
 
 ### # as component name it take name of the file. as example if file name is `Test.ts` `<Compoenent Name>` will be `Test`
 
-<h3 align="center">When comparing project file structure winner is Angular</h3>
+<h3 align="center">🟢 When comparing project file structure winner is Angular 🟢</h3>
 
 ## 4.Technical Comparisons
 
@@ -75,20 +76,12 @@ export default <Compoenent Name>
 - #### [HTML file](https://github.com/heshanthenura/StudentRegister/blob/main/StudentRegisterClientAngular/src/app/components/student-data-container/student-data-container.component.html)
 
 ```html
-<table>
-  <thead>
-    <tr>
-      <th>INDEX</th>
-      <th>NAME</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let data of studentDataList">
-      <td>{{ data.index }}</td>
-      <td>{{ data.name }}</td>
-    </tr>
-  </tbody>
-</table>
+<tbody>
+  <tr *ngFor="let data of studentDataList">
+    <td>{{ data.index }}</td>
+    <td>{{ data.name }}</td>
+  </tr>
+</tbody>
 ```
 
 - #### [TypeScript File](https://github.com/heshanthenura/StudentRegister/blob/main/StudentRegisterClientAngular/src/app/components/student-data-container/student-data-container.component.ts)
@@ -101,10 +94,36 @@ export default <Compoenent Name>
 export class StudentDataContainerComponent implements OnInit {
 
   studentDataList: STUDENTDATA[] = [];
-    // Other code
 
-  ngOnInit(): void {...}
-
-  addStudentData() {...}
 }
 ```
+
+In Angular, we have the convenience of using directives like `*ngFor` to iterate through collections and generate HTML elements dynamically. This makes it straightforward to create loops, and many developers find it intuitive and easy to use. The `*ngFor` directive simplifies the process of rendering data, making it a powerful tool for displaying dynamic content in Angular applications
+
+### This is how make table in React
+
+- #### [TypeScript File](https://github.com/heshanthenura/StudentRegister/blob/main/student-register-client-react/src/Components/StudentDataContainer.tsx)
+
+```typescript
+
+
+const StudentDataContainer = () => {
+  const [data, setData] = useState<STUDENTDATA[]>([]);
+  return (
+
+          <tbody>
+            {data
+              .slice()
+              .reverse()
+              .map((item: STUDENTDATA, index: number) => (
+                <tr key={index}>
+                  <td>{item.index}</td>
+                  <td>{item.name}</td>
+                </tr>
+              ))}
+          </tbody>
+)
+
+```
+
+On the other hand, in React, handling dynamic content involves using JavaScript's map function. While map is a flexible and versatile method, some developers may find it less suitable, especially those who prefer a more declarative and template-like approach to rendering UI components. The map function requires a bit more manual coding, including the need to specify a unique key for each element, and it may not provide the same level of abstraction and convenience as Angular's `*ngFor` directive
