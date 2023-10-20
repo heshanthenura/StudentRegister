@@ -4,7 +4,7 @@
 
 ### <a href="#overview">1.Overview</a>
 
-### [2.Project Generation](#project-generation)
+### <a href="#project-generation">2.Project Generation</a>
 
 ### [3.Project Structure](#project-structure)
 
