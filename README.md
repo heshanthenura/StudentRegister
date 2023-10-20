@@ -10,9 +10,9 @@
 
 ### <a href="#technical-comparisons">4.Technical Comparisons</a>
 
-- ### <a href="#iterating-and-rendering">Iterating and Rendering</a>
+- ### <a href="#iterating">Iterating and Rendering</a>
 - ### <a href="#sending-HTTP-requests">Sending HTTP Requests</a>
-- ### <a href="#code-organization-and-cleanliness">Code Organization and Cleanliness</a>
+- ### <a href="#code-organization">Code Organization and Cleanliness</a>
 
 ## 1. <span id="overview">Overview</span>
 
@@ -72,7 +72,7 @@ as component name it take name of the file. as example if file name is `Test.ts`
 
 ## 4.<span id="technical-comparisons">Technical Comparisons</span>
 
-#### 1. <span id="iterating-and-rendering">Iterating and Rendering</span>
+#### 1. <span id="iterating">Iterating and Rendering</span>
 
 ### This is how to make table in Angular
 
@@ -248,7 +248,7 @@ export default StudentDataContainer;
 
 <h3 align="center">🟢 When comparing making HTTP requests. I prefer Angular. So winner is Angular 🟢</h3>
 
-#### 3.<span id="code-organization-and-cleanliness">Code Organization and Cleanliness </span>
+#### 3.<span id="code-organization">Code Organization and Cleanliness </span>
 
 ### This is how Angular component looks
 
