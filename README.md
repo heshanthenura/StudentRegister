@@ -6,13 +6,13 @@
 
 ### <a href="#project-generation">2.Project Generation</a>
 
-### [3.Project Structure](#project-structure)
+### <a href="#project-structure">3.Project Structure</a>
 
-### [4.Technical Comparisons](#technical-comparisons)
+### <a href="#technical-comparisons">4.Technical Comparisons</a>
 
-- ### [Iterating and Rendering](#iterating-and-rendering)
-- ### [Sending HTTP Requests](#sending-HTTP-requests)
-- ### [Code Organization and Cleanliness](#code-organization-and-cleanliness)
+- ### <a href="#iterating-and-rendering">Iterating and Rendering</a>
+- ### <a href="#sending-HTTP-requests">Sending HTTP Requests</a>
+- ### <a href="#code-organization-and-cleanliness">Code Organization and Cleanliness</a>
 
 ## 1. <span id="overview">Overview</span>
 
